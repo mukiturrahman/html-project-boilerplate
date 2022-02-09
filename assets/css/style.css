@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*=================================================================*/
+/*                      BASE                              
+/*=================================================================*/
+@import "reset.css";
+
+body {
+  background-color: cornflowerblue;
+}
+
+.container {
+  max-width: 69.375rem;
+  width: 100%; /* Fall back for browsers that doesn't support calc() function */
+  width: calc(
+    100% - 1rem
+  ); /* Override the width for  browsers that support calc function */
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+/*=================================================================*/
+/*                      TYPOGRAPHY                              
+/*=================================================================*/
